@@ -1,0 +1,34 @@
+{
+  "name": "sofa-coupon-service",
+  "version": "0.1.0",
+  "homepage": "http://www.sofa.io",
+  "authors": [
+    "Pascal Precht <pascal@couchcommerce.com>"
+  ],
+  "description": "Sofa Web SDK coupon service component.",
+  "main": "dist/sofa.couponService.js",
+  "dependencies": {
+    "sofa-core": "0.6.x",
+    "sofa-http-service": "0.2.x",
+    "sofa-q-service": "0.1.x",
+    "sofa-basket-service": "0.1.x",
+    "sofa-checkout-service": "0.1.x",
+    "sofa-logging-service": "0.1.x",
+    "sofa-storages": "0.2.x"
+  },
+  "devDependencies": {
+    "sofa-testing": "0.2.x",
+    "jasmine.async": "~0.1.0"
+  },
+  "resolutions": {
+    "sofa-core": "0.6.x"
+  },
+  "keywords": [
+    "sofa",
+    "sofa.io",
+    "web",
+    "sdk",
+    "service"
+  ],
+  "license": "GPL"
+}
