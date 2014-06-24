@@ -1,3 +1,12 @@
+<a name="0.2.0"></a>
+## 0.2.0 (2014-06-24)
+
+
+#### Features
+
+* **grunt:** better deploying ([47cc011f](https://github.com/sofa/sofa-coupon-service/commit/47cc011fd4226d5adf8b179c96ee32912d6efcac))
+
+
 <a name="0.1.1"></a>
 ### 0.1.1 (2014-04-16)
 
