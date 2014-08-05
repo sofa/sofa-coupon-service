@@ -1,5 +1,5 @@
 /**
- * sofa-coupon-service - v0.2.0 - 2014-06-24
+ * sofa-coupon-service - v0.3.0 - 2014-08-05
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors
@@ -11,8 +11,25 @@
 'use strict';
 /* global sofa */
 /**
- * @name CouponService
- * @namespace sofa.CouponService
+ * @sofadoc class
+ * @name sofa.CouponService
+ * @package sofa-coupon-service
+ *
+ * @requiresPackage sofa-core
+ * @requiresPackage sofa-http-service
+ * @requiresPackage sofa-q-service
+ * @requiresPackage sofa-basket-service
+ * @requiresPackage sofa-checkout-service
+ * @requiresPackage sofa-logging-service
+ *
+ * @requires sofa.HttpService
+ * @requires sofa.QService
+ * @requires sofa.BasketService
+ * @requires sofa.CheckoutService
+ * @requires sofa.LoggingService
+ * @requires sofa.ConfigService
+ *
+ * @distFile dist/sofa.couponService.js
  *
  * @description
  * A service that allows you to validate coupon codes against the backend.
@@ -26,7 +43,8 @@ sofa.define('sofa.CouponService', function ($http, $q, basketService, checkoutSe
         FULL_CHECKOUT_URL = CHECKOUT_URL + 'coupon.php';
 
     /**
-     * @method submitCode
+     * @sofadoc method
+     * @name sofa.CouponService#submitCode
      * @memberof sofa.CouponService
      *
      * @description
