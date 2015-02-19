@@ -1,5 +1,5 @@
 /**
- * sofa-coupon-service - v0.3.0 - Thu Feb 19 2015 15:30:01 GMT+0100 (CET)
+ * sofa-coupon-service - v0.3.0 - Thu Feb 19 2015 15:31:07 GMT+0100 (CET)
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors

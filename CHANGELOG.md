@@ -1,3 +1,11 @@
+## 0.3.0 (2015-02-19)
+
+
+#### Features
+
+* **sofa.CouponService:** new build + Angular service / module ([f2a53996](https://github.com/sofa/sofa-coupon-service/commit/f2a539964c2f7ac1f1144ef638d9dd9bced4f7ce))
+
+
 <a name="0.3.0"></a>
 ## 0.3.0 (2014-08-05)
 
