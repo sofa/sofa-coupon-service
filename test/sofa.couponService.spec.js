@@ -1,6 +1,5 @@
 'use strict';
 /* global sofa */
-/* global AsyncSpec */
 
 describe('sofa.couponService', function () {
 
@@ -48,9 +47,7 @@ describe('sofa.couponService', function () {
 
     describe('async tests', function () {
 
-        var async = new AsyncSpec(this);
-
-        async.it('submitting a code returns a valid response', function (done) {
+        it('submitting a code returns a valid response', function (done) {
 
             httpService
                 .when('POST', sofa.Config.checkoutUrl + 'coupon.php')
@@ -72,7 +69,7 @@ describe('sofa.couponService', function () {
                     done();
                 });
         });
-        async.it('submitting an empty code returns an error', function (done) {
+        it('submitting an empty code returns an error', function (done) {
 
             httpService
                 .when('POST', cc.Config.checkoutUrl + 'coupon.php')
@@ -94,7 +91,7 @@ describe('sofa.couponService', function () {
                 });
         });
 
-        async.it('submitting an invalid code returns an error', function (done) {
+        it('submitting an invalid code returns an error', function (done) {
 
             httpService
                 .when('POST', sofa.Config.checkoutUrl + 'coupon.php')
@@ -116,7 +113,7 @@ describe('sofa.couponService', function () {
                 });
         });
 
-        async.it('changing an item in the cart also updates the active coupons', function (done) {
+        it('changing an item in the cart also updates the active coupons', function (done) {
             basketService.clear();
 
             var product = new sofa.models.Product();
