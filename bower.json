@@ -6,7 +6,7 @@
         "Pascal Precht <pascal@couchcommerce.com>"
     ],
     "description": "Sofa Web SDK coupon service component.",
-    "main": "dist/sofa.couponService.js",
+    "main": "dist/sofaCouponService.js",
     "dependencies": {
         "sofa-core": "0.6.x",
         "sofa-http-service": "0.2.x",
