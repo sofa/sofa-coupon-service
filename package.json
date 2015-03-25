@@ -1,6 +1,6 @@
 {
   "name": "sofa-coupon-service",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Sofa Web SDK coupon service component.",
   "main": "dist/sofaCouponService.js",
   "homepage": "http://www.sofa.io",

@@ -1,3 +1,11 @@
+## 0.4.0 (2015-03-25)
+
+
+#### Bug Fixes
+
+* **bower.json:** fixes naming ([4f4cb109](https://github.com/sofa/sofa-coupon-service/commit/4f4cb109033c978785ac2f2ba4de3bdb5c01aa0c), closes [#1](https://github.com/sofa/sofa-coupon-service/issues/1))
+
+
 ## 0.3.0 (2015-02-19)
 
 
